@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.tasks-button-container {
+    padding: 10px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-button {
+    border: 1px solid grey;
+    background-color: darkcyan;
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+}
