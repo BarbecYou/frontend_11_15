@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,34 @@
     <script defer src="./dist/main.js"></script>
     <link rel="stylesheet" href="./src/style.css">
 </head>
+
 <body>
     <div class="tasks-button-container">
+
         <div class="first-task">
-            <button class="task-button">Összes idézet</button>
+            <button id="first-task-button" class="task-button">Összes idézet:</button>
+        </div>
+        <div class="second-task">
+            <button id="second-task-button" class="task-button">The:</button>
+        </div>
+        <div class="third-task">
+            <button id="third-task-button" class="task-button">Hossz:</button>
+        </div>
+        <div class="fourth-task">
+            <button id="fourth-task-button" class="task-button">Darabszám:</button>
+
+            <input type="text" name="" id="givenAuthor">
+            <label for="givenAuthor">Adjon meg egy szerzőt, akinek az idézetei darabszámát szeretné megkapni</label>
+            <br>
+            <input disabled type="number" name="" id="resultQuoteAmount">
+            <label for="resultQuoteAmount">A megadott szerzőnek ennyi idézete van rögzítve</label>
+
         </div>
     </div>
 
-    <div class="result-container">
-        
+    <div id="result-container">
+
     </div>
 </body>
+
 </html>

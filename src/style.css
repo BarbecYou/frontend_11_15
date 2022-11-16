@@ -2,11 +2,13 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .tasks-button-container {
-    padding: 10px;
-    height: 60vh;
+    height: fit-content;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -15,7 +17,20 @@
     border: 1px solid grey;
     background-color: darkcyan;
     padding: 10px;
+    margin: 10px;
     font-size: 15px;
     font-family: sans-serif;
     color: white;
+}
+
+#givenAuthor {
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#resultQuoteAmount {
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 10px;
 }
